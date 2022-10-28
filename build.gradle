@@ -4,15 +4,12 @@ group 'org.example'
 version '1.0.0'
 
 repositories {
+    // Define where the dependencies are to be looked for
     mavenCentral()
 }
 
-jar {
-    archiveBaseName = 'gs-gradle'
-    archiveVersion =  '0.1.0'
-}
-
 dependencies {
+    //Jars the application is dependent on
     implementation "joda-time:joda-time:2.2"
 }
 
